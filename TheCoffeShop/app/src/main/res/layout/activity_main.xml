@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="PAPACONTAINER COFFE"
+        android:background="#DF7401"
+        android:textColor="#F6E3CE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="301dp"
+        android:scaleType="fitStart"
+        android:src="@drawable/papacontainer"
+
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        >
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rowCount="6"
+            android:columnCount="2"
+            >
+
+            <ImageView
+                android:src="@drawable/address"
+
+                android:paddingBottom="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+
+                android:paddingBottom="10dp"
+                android:text="Góc Thanh Tịnh-Tân Trào-Liên Chiểu-Đà Nẵng"
+                android:textSize="15sp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/phone"
+                android:paddingBottom="15dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:text="090 380 09 49"
+                android:textSize="15dp"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"
+                />
+            <ImageView
+                android:src="@drawable/mail"
+                android:paddingBottom="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:text="doanbaolinh98@gmail.com"
+                android:textSize="15dp"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"
+                />
+            <ImageView
+                android:src="@drawable/fb"
+                android:paddingBottom="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:text="https://www.facebook.com/PAPA-Container-Coffee-784166751596126/"
+                android:textSize="15dp"
+                android:paddingLeft="10dp"
+                android:paddingBottom="15dp"
+                />
+            <ImageView
+                android:src="@drawable/folder"
+                android:paddingBottom="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+               android:text="Quán cà phê - Nhà hàng"
+                android:textSize="15dp"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"
+                />
+            <ImageView
+                android:src="@drawable/check"
+                android:paddingBottom="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:text="10.436 người đã check in tại đây "
+                android:textSize="15dp"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"
+                />
+
+
+        </GridLayout>
+    </LinearLayout>
+</LinearLayout>
